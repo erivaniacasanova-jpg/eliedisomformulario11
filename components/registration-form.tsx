@@ -12,7 +12,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { useToast } from "@/hooks/use-toast"
 import ErrorModal from "@/components/error-modal"
 
-const REFERRAL_ID = "127251"
+const REFERRAL_ID = "110956"
 const DEFAULT_WHATSAPP = "5584981321396"
 
 interface RegistrationFormProps {
@@ -481,7 +481,7 @@ export default function RegistrationForm({ repId, repWhatsApp, repName }: Regist
           <div className="text-center mb-6 md:mb-8">
             <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Seja bem-vindo ao Registro de Associados</h1>
             <p className="text-sm sm:text-base text-gray-700 mt-2 font-medium">
-              Patrocinador: {repName || "Thomas Theodor Costa"}
+              Patrocinador: {repName || "Francisco Eliedisom Dos Santos"}
             </p>
           </div>
         )}
